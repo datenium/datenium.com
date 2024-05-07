@@ -8,6 +8,10 @@ images: {
         protocol: "https",
         hostname: 'avatars.githubusercontent.com',
       },
+      {
+        protocol: "https",
+        hostname: 'github.com/datenium/datenium.github.io/tree/main/public'
+      }
         ],
   },
 }

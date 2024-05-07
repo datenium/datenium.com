@@ -33,19 +33,19 @@ const ServicesPage = () => {
       id: 1,
       title: 'Generative AI Solutions',
       description: 'Strategic Expert Guidance for Business-Centric R&D in Generative AI Projects',
-      icon: '/multimodal-ai3.jpg',
+      icon: 'https://github.com/datenium/datenium.github.io/blob/main/public/multimodal-ai3.jpg',
     },
     {
       id: 2,
       title: 'Full Stack Solutions',
       description: 'End-to-End Mobile and Web App Development by Full Stack Experts',
-      icon: '/full-stack.png',
+      icon: 'https://github.com/datenium/datenium.github.io/blob/main/public/full-stack.png',
     },
     {
       id: 3,
       title: 'Saas Product Solutions',
       description: 'Expertly Crafted SaaS Applications for Your Unique Business Requirements',
-      icon: '/bg-featured_img.png',
+      icon: 'https://github.com/datenium/datenium.github.io/blob/main/public/bg-featured_img.png',
     },
   ];
 
