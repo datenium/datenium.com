@@ -1,8 +1,4 @@
 import HeroSection from "./Hero";
-import Services from "./Services";
-import TechStack from "./TechStack";
-import IndustryGrid from "./IndustryGrid";
-import ContactForm from "./ContactUs";
 ServicesPage
 // import TechnologiesCarousel from "./ServiceCarousel"
 import Link from "next/link";
@@ -17,10 +13,7 @@ const HomePage = () => {
           <p className="text-center text-sm font-medium mx-2">U.S. & Canada +1 (514)-638-2519</p>
         </div>
       <HeroSection />
-      {/* <TechnologiesCarousel /> */}
       <ServicesPage />
-      {/* <TechStack/> */}
-      {/* <IndustryGrid /> */}
     </div>
   );
 };
