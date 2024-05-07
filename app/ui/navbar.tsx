@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
       <div className="flex items-center justify-between">
-        <Link href="/" className="text-xl font-bold  transition-colors duration-300 transform md:text-3xl hover:text-indigo-400">
+        <Link href="/" className="text-xl font-bold transition-colors duration-300 transform md:text-3xl hover:text-indigo-400">
             Datenium
         </Link>
 

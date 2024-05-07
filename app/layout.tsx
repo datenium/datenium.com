@@ -18,7 +18,7 @@ export default function RootLayout({
     <html
       lang="en"
       className="scroll-smooth "
-      style={{ scrollBehavior: "smooth" }}
+      style={{ scrollBehavior: "auto" }}
     >
       <body className="flex flex-col md:flex-row ">
         <main className="flex-grow ">
