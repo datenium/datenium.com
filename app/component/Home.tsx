@@ -3,9 +3,10 @@ import Services from "./Services";
 import TechStack from "./TechStack";
 import IndustryGrid from "./IndustryGrid";
 import ContactForm from "./ContactUs";
+ServicesPage
 // import TechnologiesCarousel from "./ServiceCarousel"
-import Contacts from "../contacts/page"
 import Link from "next/link";
+import ServicesPage from "./Services";
 const HomePage = () => {
   return (
     <div className="flex flex-col item-center justify-center ">
@@ -17,11 +18,9 @@ const HomePage = () => {
         </div>
       <HeroSection />
       {/* <TechnologiesCarousel /> */}
-      <Services />
-      <TechStack/>
-      <IndustryGrid />
-      {/* <ContactForm/> */}
-      {/* <Contacts /> */}s
+      <ServicesPage />
+      {/* <TechStack/> */}
+      {/* <IndustryGrid /> */}
     </div>
   );
 };

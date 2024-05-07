@@ -1,6 +1,5 @@
-import Head from "next/head";
 import TeamPage from "../component/Teams";
-import Locations from "../component/Offices";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -10,7 +9,7 @@ const About = () => {
           <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
             <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
               <div className="md:5/12 lg:w-5/12">
-                <img src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png" alt="image" loading="lazy" width="" height="" />
+                <Image src="/startup.png" alt="image" loading="lazy" width={1028} height={500} />
               </div>
               <div className="md:7/12 lg:w-6/12">
                 <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">Your project is carried out by passionate developers</h2>
@@ -29,8 +28,6 @@ const About = () => {
         </div>
 
         <TeamPage />
-
-        <Locations />
       </div>
     </div>
   );
