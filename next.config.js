@@ -10,7 +10,7 @@ images: {
       },
       {
         protocol: "https",
-        hostname: 'github.com/datenium/datenium.github.io/tree/main/public'
+        hostname: 'raw.githubusercontent.com'
       }
         ],
   },
