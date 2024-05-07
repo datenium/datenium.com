@@ -39,16 +39,16 @@ const Navbar = () => {
         } md:flex md:flex-row md:mt-0 md:space-x-10 md:items-center`}
         style={{ marginTop: '1rem' }}
       >
-         <Link href="/" className="text-sm font-medium transition-colors duration-300 transform hover:text-indigo-400 block md:inline-block md:mt-0">
+         <Link href="/" className="font-bold text-l transition-colors duration-300 transform hover:text-indigo-400 block md:inline-block md:mt-0">
             Home
         </Link>
-        <Link href="/about" className="text-sm font-medium transition-colors duration-300 transform hover:text-indigo-400 block md:inline-block md:mt-0">
+        <Link href="/about" className="font-bold text-ltransition-colors duration-300 transform hover:text-indigo-400 block md:inline-block md:mt-0">
             About
         </Link>
-        <Link href="/faq" className="text-sm font-medium  transition-colors duration-300 transform hover:text-indigo-400 block md:inline-block md:mt-0">
+        <Link href="/faq" className="font-bold text-l transition-colors duration-300 transform hover:text-indigo-400 block md:inline-block md:mt-0">
             FAQs
         </Link>
-        <Link href="/signup" className="px-4 py-1 text-sm font-medium text-center  transition-colors duration-300 transform border rounded hover:bg-indigo-400 block md:inline-block md:mt-0">
+        <Link href="/signup" className="px-4 py-1 font-bold text-l text-center  transition-colors duration-300 transform border rounded hover:bg-indigo-400 block md:inline-block md:mt-0">
             Sign Up
         </Link>
       </div>
