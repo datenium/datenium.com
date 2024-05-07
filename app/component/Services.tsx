@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React, { ReactNode } from 'react';
 
+
 interface ServiceProps {
   id: number;
   title: string;
@@ -15,7 +16,7 @@ const ServiceCard = ({ service }: {service:ServiceProps}) => {
   return (
     <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
       <div className="flex items-center justify-center mb-4">
-        <Image src={icon} alt={title} width={250} height={100} />
+      <img src={icon} alt={title} width={250} height={100} />
       </div>
       <h3 className="text-xl font-semibold text-center mb-4">{title}</h3>
       <p className="text-gray-700 text-left mb-4">{description}</p>
