@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { ReactNode } from 'react';
-import multimodal from "../../public/multimodal-ai3.jpg";
-import fullStack from "../../public/full-stack.png";
-import saas from "../../public/full-stack.png";
+
 
 interface ServiceProps {
   id: number;
@@ -35,19 +33,19 @@ const ServicesPage = () => {
       id: 1,
       title: 'Generative AI Solutions',
       description: 'Strategic Expert Guidance for Business-Centric R&D in Generative AI Projects',
-      icon: {multimodal},
+      icon: "../../public/multimodal-ai3.jpg",
     },
     {
       id: 2,
       title: 'Full Stack Solutions',
       description: 'End-to-End Mobile and Web App Development by Full Stack Experts',
-      icon: {fullStack},
+      icon: "../../public/full-stack.png",
     },
     {
       id: 3,
       title: 'Saas Product Solutions',
       description: 'Expertly Crafted SaaS Applications for Your Unique Business Requirements',
-      icon: {saas},
+      icon: "../../public/full-stack.png",
     },
   ];
 
